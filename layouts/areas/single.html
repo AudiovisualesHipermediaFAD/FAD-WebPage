@@ -1,0 +1,17 @@
+{{ define "main" }}
+<!-- Cabecera individual -->
+<section class="content-section">
+  <div class="text">
+    <h1>{{ .Title }}</h1>
+    <hr>
+    <div class="text">
+      {{ $parts := split .RawContent "<!--more-->" }}
+      {{ if gt (len $parts) 1 }}
+      {{ index $parts 1 | markdownify }}
+      {{ else }}
+      {{ .Content }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

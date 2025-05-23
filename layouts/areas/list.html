@@ -1,0 +1,20 @@
+{{ define "main" }}
+<!-- Encabezado de sección -->
+<section class="content-section">
+    <div class="text">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</section>
+
+
+<!-- Listado de sub-áreas -->
+{{ range .Pages.ByWeight.ByDate }}
+<section class="content-section area-card">
+    <div class="text">
+        <h2 style="text-align:center;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+    </div>
+</section>
+{{ end }}
+{{ end }}

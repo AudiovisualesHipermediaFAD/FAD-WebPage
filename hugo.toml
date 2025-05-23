@@ -1,0 +1,63 @@
+baseURL = 'https://jonathancruze.github.io/FAD-WebPage/'
+publishDir = "docs"
+languageCode = 'es-mx'
+title = 'FAD UNAM - Diseño Gráfico'
+
+[[assets]]
+  src = "css/navbar.css"
+
+[params]
+  heroTitle    = "Licenciatura en Diseño y Comunicación Visual"
+  heroSubtitle = "Es aquí donde convergen el arte, la tecnología y el pensamiento crítico para construir mensajes que inspiran, educan e impactan de manera significativa en la sociedad."
+  testURL = "https://dominio.com/mi-test"
+
+[menu]
+  # Áreas de profundización (padre)
+  [[menu.main]]
+    identifier = "areas"
+    name       = "Áreas de profundización"
+    url        = "/areas/"
+    weight     = 10
+
+    # Opción 1 (hija de Áreas)
+  [[menu.main]]
+    parent     = "areas"
+    name       = "Edición Gráfica"
+    url        = "/areas/edicion-grafica/"
+    weight     = 11
+
+    # Opción 2 (hija de Áreas)
+  [[menu.main]]
+    parent     = "areas"
+    name       = "Gráfica e Ilustración"
+    url        = "/areas/grafica-e-ilustracion/"
+    weight     = 12
+
+    # Opción 3 (hija de Áreas)
+  [[menu.main]]
+    parent     = "areas"
+    name       = "Iconicidad y Entornos"
+    url        = "/areas/iconicidad-y-entornos/"
+    weight     = 13
+
+        # Opción 4 (hija de Áreas)
+  [[menu.main]]
+    parent     = "areas"
+    name       = "Medios Audiovisuales e Hipermedia"
+    url        = "/areas/medios-audiovisuales-e-hipermedia/"
+    weight     = 14
+  
+  # Entrevistas (enlace directo)
+  [[menu.main]]
+    identifier = "entrevistas"
+    name       = "Entrevistas"
+    url        = "/entrevistas/"
+    weight     = 20
+
+  # Videos (enlace directo)
+  [[menu.main]]
+    identifier = "videos"
+    name       = "Videos"
+    url        = "/videos/"
+    weight     = 30
+

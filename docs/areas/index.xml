@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Áreas de profundización on FAD UNAM - Diseño Gráfico</title>
+    <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/</link>
+    <description>Recent content in Áreas de profundización on FAD UNAM - Diseño Gráfico</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edición Gráfica</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/edicion-grafica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/edicion-grafica/</guid>
+      <description>&lt;p&gt;El área de &lt;strong&gt;Edición Gráfica&lt;/strong&gt; se enfoca en la formación integral de profesionales capaces de &lt;strong&gt;conceptualizar, desarrollar, producir y gestionar proyectos visuales&lt;/strong&gt; con una mirada crítica, creativa y estratégica.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gráfica e Ilustración</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/grafica-e-ilustracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/grafica-e-ilustracion/</guid>
+      <description>&lt;p&gt;El área de &lt;strong&gt;Gráfica e Ilustración&lt;/strong&gt; tiene como objetivo formar profesionales capaces de &lt;strong&gt;crear imágenes con un propósito comunicativo claro y efectivo&lt;/strong&gt;, ya sea para medios impresos, digitales o proyectos experimentales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Iconicidad y Entornos</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/iconicidad-y-entornos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/iconicidad-y-entornos/</guid>
+      <description>&lt;p&gt;El área de &lt;strong&gt;Iconicidad y Entornos&lt;/strong&gt; se enfoca en la creación y aplicación de sistemas icónicos que incluyen símbolos, pictogramas, señalética y lenguajes visuales destinados a &lt;strong&gt;facilitar la orientación, comprensión e identidad&lt;/strong&gt; en distintos espacios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Medios Audiovisuales e Hipermedia</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/medios-audiovisuales-e-hipermedia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/areas/medios-audiovisuales-e-hipermedia/</guid>
+      <description>&lt;p&gt;El área de &lt;strong&gt;Medios Audiovisuales e Hipermedia&lt;/strong&gt; se enfoca en el diseño y la producción de &lt;strong&gt;contenidos audiovisuales&lt;/strong&gt; como video, animación, sonido y montaje, así como en la creación de &lt;strong&gt;experiencias hipermedia interactivas&lt;/strong&gt; que permitan al usuario participar activamente en la construcción del mensaje.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

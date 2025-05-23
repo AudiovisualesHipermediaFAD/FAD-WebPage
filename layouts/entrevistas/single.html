@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <!-- Cabecera de la entrevista -->
+  <section class="content-section">
+    <div class="text">
+      <h1>{{ .Title }}</h1>
+      <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
+    </div>
+  </section>
+
+  <!-- Contenido completo de la entrevista -->
+  <section class="content-section">
+    <div class="text">
+      {{ .Content }}
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrevistas on FAD UNAM - Diseño Gráfico</title>
+    <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/</link>
+    <description>Recent content in Entrevistas on FAD UNAM - Diseño Gráfico</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Wed, 21 May 2025 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrevista con María López</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/entrevista-maria-lopez/</link>
+      <pubDate>Wed, 21 May 2025 14:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/entrevista-maria-lopez/</guid>
+      <description>&lt;p&gt;María López es diseñadora visual y experta en branding con más de 10 años de trayectoria. Hablamos con ella sobre su proceso creativo, retos y consejos para nuevos profesionales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrevista con Juan Pérez</title>
+      <link>https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/entrevista-juan-perez/</link>
+      <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://audiovisualeshipermediafad.github.io/PaginaWeb/entrevistas/entrevista-juan-perez/</guid>
+      <description>&lt;p&gt;Resumen de la conversación con Juan Pérez sobre diseño gráfico y su trayectoria profesional.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

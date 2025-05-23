@@ -1,0 +1,31 @@
+<nav class="site-navbar">
+  <div class="container">
+    <a href="{{ "/" | relURL }}" class="brand">
+      <img src="{{ "/images/logo.png" | relURL }}" alt="{{ .Site.Title }} logo">
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="nav-menu">
+      <ul class="nav-list">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <li class="has-dropdown">
+              <a href="{{ .URL | relURL }}">{{ .Name }} ▾</a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      <a class="btn-test" href="{{ .Site.Params.testURL }}">Haz el test</a>
+    </div>
+  </div>
+</nav>

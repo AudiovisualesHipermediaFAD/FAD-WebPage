@@ -1,0 +1,21 @@
+{{ define "main" }}
+<!-- Título sección -->
+<section class="content-section">
+    <div class="text">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div> 
+</section>
+
+<!-- Listado de páginas hijas -->
+{{ range .Pages.ByDate.Reverse }}
+<section class="content-section">
+    <div class="text">
+        <h2>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        <p>{{ .Summary }}</p>
+    </div>
+</section>
+{{ end }}
+{{ end }}
