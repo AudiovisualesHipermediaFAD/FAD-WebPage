@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/areas/</loc>
+    <loc>//localhost:1313/areas/</loc>
     <lastmod>2025-05-21T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2025-05-21T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/entrevistas/entrevista-maria-lopez/</loc>
+    <loc>//localhost:1313/entrevistas/entrevista-maria-lopez/</loc>
     <lastmod>2025-05-21T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/entrevistas/</loc>
+    <loc>//localhost:1313/entrevistas/</loc>
     <lastmod>2025-05-21T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/entrevistas/entrevista-juan-perez/</loc>
+    <loc>//localhost:1313/entrevistas/entrevista-juan-perez/</loc>
     <lastmod>2025-05-20T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/areas/edicion-grafica/</loc>
+    <loc>//localhost:1313/areas/edicion-grafica/</loc>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/areas/grafica-e-ilustracion/</loc>
+    <loc>//localhost:1313/areas/grafica-e-ilustracion/</loc>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/areas/iconicidad-y-entornos/</loc>
+    <loc>//localhost:1313/areas/iconicidad-y-entornos/</loc>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/areas/medios-audiovisuales-e-hipermedia/</loc>
+    <loc>//localhost:1313/areas/medios-audiovisuales-e-hipermedia/</loc>
   </url><url>
-    <loc>https://jonathancruze.github.io/FAD-WebPage/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
