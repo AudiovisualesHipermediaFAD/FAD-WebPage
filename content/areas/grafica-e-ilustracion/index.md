@@ -7,7 +7,7 @@ El área de **Gráfica e Ilustración** tiene como objetivo formar profesionales
 
 <!--more-->
 
-![UX Design](/images/placeholder.svg)
+![UX Design](/FAD-WebPage/images/placeholder.svg)
 
 Se pone especial énfasis en la narrativa visual, la expresión artística y la construcción de un estilo propio, desarrollando imágenes que comuniquen conceptos, emociones o mensajes específicos.
 
@@ -22,7 +22,7 @@ En comjunto al manejo de **herramientas digitales contemporáneas** como:
 - La pintura digital
 - La modelación en 3D.
 
-![UX Design](/images/placeholder.svg)
+![UX Design](/FAD-WebPage/images/placeholder.svg)
 
 Además, se promueve la aplicación práctica de la ilustración en proyectos culturales, editoriales, publicitarios o comerciales, ampliando el campo profesional del ilustrador y fortaleciendo su capacidad de adaptarse a distintos contextos y plataformas.
 

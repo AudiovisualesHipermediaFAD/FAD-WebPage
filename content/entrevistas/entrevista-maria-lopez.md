@@ -17,7 +17,7 @@ María López es diseñadora visual y experta en branding con más de 10 años d
 
 El proyecto **“Ciudad Onírica”** para un festival cultural me exigió diseñar una identidad visual que conviviera con esculturas a gran escala en espacios públicos.  
 
-![Proyecto Ciudad Onírica](/images/placeholder.svg)
+![Proyecto Ciudad Onírica](/FAD-WebPage/images/placeholder.svg)
 
 Tuvimos que experimentar con materiales resistentes y colores neón para que la obra brillara de noche sin perder legibilidad.
 

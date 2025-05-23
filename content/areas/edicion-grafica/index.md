@@ -7,7 +7,7 @@ El área de **Edición Gráfica** se enfoca en la formación integral de profesi
 
 <!--more-->
 
-![UX Design](/images/placeholder.svg)
+![UX Design](images/placeholder.svg)
 
 El área de **Edición Gráfica** se enfoca en la formación integral de profesionales capaces de **conceptualizar, desarrollar, producir y gestionar proyectos visuales** con una mirada crítica, creativa y estratégica.
 
@@ -36,4 +36,4 @@ Los estudiantes se preparan para liderar procesos editoriales completos, desde l
 
 > *En un mundo saturado de información, esta área apuesta por formar editores gráficos con visión crítica, capaces de crear productos editoriales relevantes, funcionales y estéticamente sólidos, que aporten valor y generen impacto en diversas audiencias.*
 
-> ![UX Design](/images/placeholder.svg)
+> ![UX Design](/FAD-WebPage/images/placeholder.svg)
