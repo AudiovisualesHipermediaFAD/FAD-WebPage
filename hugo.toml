@@ -1,8 +1,8 @@
 baseURL = 'https://jonathancruze.github.io/FAD-WebPage/'
-publishDir = "docs"
+publishDir = "public"
 languageCode = 'es-mx'
 title = 'FAD UNAM - Diseño Gráfico'
-theme = ''
+theme = 'FAD'
 
 [[assets]]
   src = "css/navbar.css"
