@@ -1,5 +1,5 @@
 baseURL = 'https://jonathancruze.github.io/FAD-WebPage/'
-publishDir = "public"
+publishDir = "docs"
 languageCode = 'es-mx'
 title = 'FAD UNAM - Diseño Gráfico'
 theme = 'FAD'
