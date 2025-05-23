@@ -4,49 +4,97 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: #333;
+  color: #252A34;
 }
+/* Contenido principal */
 main {
-  padding: 2rem;
-  box-sizing: border-box;
-}
-
-/* Contenedor común */
-main > section {
-  display: flex;
-  align-items: center;
   max-width: 1200px;
-  margin: 4rem auto;
-  gap: 2rem;
-  padding: 0 1rem;
-}
-
-main > section .media img {
-  width: 100%;
-  height: auto;
-  display: block;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem 2.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-}
-/* Alternar imagen/texto */
-main > section:nth-of-type(even) {
-  flex-direction: row-reverse;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+  color: #252A34;
 }
 
-/* Texto */
-main > section .text {
-  flex: 1;
-}
-main > section .text h2 {
-  font-size: 2rem;
+/* Encabezados */
+main h1, main h2, main h3 {
+  font-weight: 700;
+  color: #FF2E63; /* color rojo principal */
   margin-bottom: 1rem;
 }
-main > section .text p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  /* Justificado */
-  text-align: justify;
+
+main h1 {
+  font-size: 3rem;
+  border-bottom: 3px solid #08D9D6;
+  padding-bottom: 0.5rem;
+
+  text-align: center;
 }
+
+main h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Párrafos */
+main p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: #555;
+}
+
+/* Listas */
+main ul, main ol {
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+main li {
+  margin-bottom: 0.5rem;
+}
+
+/* Citas */
+main blockquote {
+  border-left: 4px solid #08D9D6;
+  background-color: #EAEAEA;
+  color: #08D9D6;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  border-radius: 0.5rem;
+}
+
+/* Enlaces */
+main a {
+  color: #C8102E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* Imágenes */
+main img {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(200,16,46,0.15);
+  margin: 2rem 0;
+}
+
 
 /* Imagen */
 .hero-section {

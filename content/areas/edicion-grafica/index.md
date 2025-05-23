@@ -25,7 +25,7 @@ Se estudian, tanto en soportes físicos como digitales, aspectos clave como:
 
 ---
 
-# Impulsa proyectos
+## Impulsa proyectos
 Promueve una **comunicación visual clara, ética e incluyente** al fomentar el trabajo colaborativo con:
 - Sectores públicos.
 - Privados.
@@ -35,5 +35,5 @@ Promueve una **comunicación visual clara, ética e incluyente** al fomentar el 
 Los estudiantes se preparan para liderar procesos editoriales completos, desde la concepción de una idea hasta su materialización y distribución, ya sea en papel o en plataformas digitales.
 
 > *En un mundo saturado de información, esta área apuesta por formar editores gráficos con visión crítica, capaces de crear productos editoriales relevantes, funcionales y estéticamente sólidos, que aporten valor y generen impacto en diversas audiencias.*
-
+>
 > ![UX Design](/FAD-WebPage/images/placeholder.svg)
