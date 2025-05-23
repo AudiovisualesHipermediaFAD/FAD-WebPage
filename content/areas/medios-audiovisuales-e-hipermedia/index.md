@@ -7,7 +7,7 @@ El área de **Medios Audiovisuales e Hipermedia** se enfoca en el diseño y la p
 
 <!--more-->
 
-![UX Design](/images/placeholder.svg)
+![UX Design](images/placeholder.svg)
 
 El área de Medios Audiovisuales e Hipermedia se enfoca en el diseño y la producción de contenidos audiovisuales como:
 - video
@@ -26,4 +26,4 @@ Con el uso de herramientas digitales y lenguajes audiovisuales contemporáneos s
 - El diseño centrado en el usuario.
 - La innovación comunicativa.
 
-> ![UX Design](/images/placeholder.svg)
+> ![UX Design](images/placeholder.svg)
