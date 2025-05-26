@@ -112,7 +112,7 @@ body {
   background-color: var(--primary-color);
   color: white;
   padding: 0.6rem 1.5rem;
-  border-radius: 999px; /* Pill-shaped */
+  border-radius: 999px;
   font-weight: 600;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;

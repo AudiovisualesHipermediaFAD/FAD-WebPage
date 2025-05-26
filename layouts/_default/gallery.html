@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<!-- ▷ Menú radial: tipo de medio -->
+
+<!-- ▷ Filtros de áreas -->
+<form id="area-filters" class="filters-panel">
+    <fieldset>
+        <legend>Selecciona áreas:</legend>
+        {{ range .Params.areas }}
+        <label>
+            <input type="checkbox" name="area" value="{{ .slug }}" checked>
+            {{ .name }}
+        </label>
+        {{ end }}
+    </fieldset>
+    <button type="button" id="apply-filters" class="btn-apply">Aplicar</button>
+</form>
+<div class="radial-menu">
+    <input type="radio" id="opt-both" name="media-type" value="both" checked>
+    <label for="opt-both">Fotos y Vídeos</label>
+    <input type="radio" id="opt-photos" name="media-type" value="photo">
+    <label for="opt-photos">Solo Fotos</label>
+    <input type="radio" id="opt-videos" name="media-type" value="video">
+    <label for="opt-videos">Solo Vídeos</label>
+</div>
+<hr>
+<!-- Bloques por área -->
+{{ range .Params.areas }}
+<div class="area-block" data-area="{{ .slug }}">
+    <h2 class="area-title">{{ .name }}</h2>
+    <div class="media-grid">
+        {{ with index $.Params.media .slug }}
+        <!-- Fotos -->
+        {{ range .photos }}
+        <div class="media-item" data-type="photo">
+            <img src="{{ .src | relURL }}" alt="{{ .title }}" onerror="this.src='{{ "images/placeholder.svg" | absURL
+                }}'">
+            <div class="caption">
+                <strong>{{ .title }}</strong>
+                {{ with .author }}<em>por {{ . }}</em>{{ end }}
+            </div>
+        </div>
+        {{ end }}
+        <!-- Vídeos -->
+        {{ range .videos }}
+        <div class="media-item" data-type="video">
+            <video controls poster="{{ if .thumbnail }}{{ .thumbnail | relURL }}{{ else }}{{ "images/placeholder.svg" |
+                absURL }}{{ end }}" src="{{ .src | relURL }}" onerror="this.poster='{{ "images/placeholder.svg" |
+                absURL }}'">
+            </video>
+            <div class="caption">
+                <strong>{{ .title }}</strong>
+                {{ with .author }}<em>por {{ . }}</em>{{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+<!-- Lightbox Modal -->
+<div id="lightbox-modal" class="lightbox-hidden">
+  <div id="lightbox-overlay"></div>
+  <img id="lightbox-img" src="" alt="Foto ampliada">
+  <span id="lightbox-close">&times;</span>
+</div>
+
+
+{{ end }}

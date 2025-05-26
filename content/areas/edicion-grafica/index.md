@@ -1,12 +1,13 @@
 ---
 title: "Edición Gráfica"
+layout: "Area"
 draft: false
 images:
   - "images/areas/edicion-grafica/Triptico FINAL.png"
   - "images/areas/edicion-grafica/Proyecto final Diseño.png"
   - "images/areas/edicion-grafica/Poster Promocion Pizzeria Urbano Negro y Naranja.png"
   - "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).png"
-  - "images/areas/edicion-grafica/caligrama.png"
+  - "images/areas/edicion-grafica/Caligrama.png"
   - "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (4).png"
   - "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).png"
   - "images/areas/edicion-grafica/ck.png"
@@ -62,9 +63,9 @@ Si te apasiona contar historias con imágenes, explorar nuevas tecnologías y tr
 - Te formarás para adaptarte a los cambios del entorno digital y la edición multiplataforma.
 - Contribuirás a crear contenidos visuales que informen, inspiren y transformen la forma en que las personas leen y se comunican.
 
----
 
-## Acerca del Área
+
+# Acerca del Área
 
 Esta área de profundización aborda de manera integral los conocimientos, habilidades y competencias necesarias para la creación, desarrollo y producción de objetos comunicativos visuales mediante la integración metodológica de diversas disciplinas como la producción audiovisual, la cinematografía, la animación tradicional y digital, el diseño gráfico y el diseño multimedia. Su enfoque se fundamenta en el análisis crítico, la conceptualización creativa y la ejecución técnica de productos comunicativos que respondan a las necesidades, dinámicas y exigencias de los entornos digitales contemporáneos. Se consideran tanto los aspectos técnicos como los narrativos, estéticos, simbólicos, comunicativos y experienciales que intervienen en la construcción de sentido a través de imágenes en movimiento.
 

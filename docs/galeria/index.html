@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><script src="/FAD-WebPage/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=FAD-WebPage/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="icon" type="image/png" href="http://localhost:1313/FAD-WebPage/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/FAD-WebPage/images/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/FAD-WebPage/images/logo.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/FAD-WebPage/images/logo.png">
+  
+  <title>Galería de Fotos y Videos | FAD UNAM - Diseño Gráfico</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost:1313/FAD-WebPage/css/gallery.css">
+  <link rel="stylesheet" href="http://localhost:1313/FAD-WebPage/css/navbar.css">
+  <link rel="stylesheet" href="http://localhost:1313/FAD-WebPage/css/styles.css">
+  <link rel="stylesheet" href="http://localhost:1313/FAD-WebPage/css/footer.css">
+  <link rel="stylesheet" href="http://localhost:1313/FAD-WebPage/css/areas.css">
+  <link rel="stylesheet" href="/FAD-WebPage/css/carousel.css"> 
+</head>
+<body>
+  <nav class="site-navbar">
+  <div class="container">
+    <a href="/FAD-WebPage/" class="brand">
+      <img src="http://localhost:1313/FAD-WebPage/images/logo.png" alt="FAD UNAM - Diseño Gráfico logo">
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="nav-menu">
+      <ul class="nav-list">
+        
+          
+            <li class="has-dropdown">
+              <a href="/FAD-WebPage/areas/">Áreas de profundización ▾</a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/FAD-WebPage/areas/edicion-grafica/">Edición Gráfica</a></li>
+                
+                  <li><a href="/FAD-WebPage/areas/grafica-e-ilustracion/">Gráfica e Ilustración</a></li>
+                
+                  <li><a href="/FAD-WebPage/areas/iconicidad-y-entornos/">Iconicidad y Entornos</a></li>
+                
+                  <li><a href="/FAD-WebPage/areas/medios-audiovisuales-e-hipermedia/">Medios Audiovisuales e Hipermedia</a></li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li><a href="/FAD-WebPage/entrevistas/">Entrevistas</a></li>
+          
+        
+          
+            <li><a href="/FAD-WebPage/galeria/">Galeria</a></li>
+          
+        
+      </ul>
+      <a class="btn-test" href="https://dominio.com/mi-test">Haz el test</a>
+    </div>
+  </div>
+</nav>
+
+
+  <main>
+    
+
+
+
+
+<form id="area-filters" class="filters-panel">
+    <fieldset>
+        <legend>Selecciona áreas:</legend>
+        
+        <label>
+            <input type="checkbox" name="area" value="edicion-grafica" checked>
+            Edicion Grafica
+        </label>
+        
+        <label>
+            <input type="checkbox" name="area" value="oceanos" checked>
+            Océanos
+        </label>
+        
+        <label>
+            <input type="checkbox" name="area" value="selvas" checked>
+            Selvas
+        </label>
+        
+    </fieldset>
+    <button type="button" id="apply-filters" class="btn-apply">Aplicar</button>
+</form>
+<div class="radial-menu">
+    <input type="radio" id="opt-both" name="media-type" value="both" checked>
+    <label for="opt-both">Fotos y Vídeos</label>
+    <input type="radio" id="opt-photos" name="media-type" value="photo">
+    <label for="opt-photos">Solo Fotos</label>
+    <input type="radio" id="opt-videos" name="media-type" value="video">
+    <label for="opt-videos">Solo Vídeos</label>
+</div>
+<hr>
+
+
+<div class="area-block" data-area="edicion-grafica">
+    <h2 class="area-title">Edicion Grafica</h2>
+    <div class="media-grid">
+        
+        
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/Caligrama.png" alt="Caligrama Tipográfico" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Caligrama Tipográfico</strong>
+                
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/ck.png" alt="Zorro Creativo" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Zorro Creativo</strong>
+                <em>por Juan López</em>
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/ck.png" alt="Zorro Creativo" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Zorro Creativo</strong>
+                <em>por Juan López</em>
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/ck.png" alt="Zorro Creativo" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Zorro Creativo</strong>
+                <em>por Juan López</em>
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/ck.png" alt="Zorro Creativo" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Zorro Creativo</strong>
+                <em>por Juan López</em>
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/edicion-grafica/ck.png" alt="Zorro Creativo" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Zorro Creativo</strong>
+                <em>por Juan López</em>
+            </div>
+        </div>
+        
+        
+        
+        <div class="media-item" data-type="video">
+            <video controls poster="/FAD-WebPage/images/videos/edicion-grafica/videoplayback.jpg" src="/FAD-WebPage/images/videos/edicion-grafica/videoplayback.mp4" onerror="this.poster='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            </video>
+            <div class="caption">
+                <strong>Ardilla Saltarina</strong>
+                <em>por Ana Ruiz</em>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+<div class="area-block" data-area="oceanos">
+    <h2 class="area-title">Océanos</h2>
+    <div class="media-grid">
+        
+        
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/oceanos/tortuga_marina.jpeg" alt="Tortuga Marina" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Tortuga Marina</strong>
+                <em>por Carlos Gómez</em>
+            </div>
+        </div>
+        
+        
+        
+        <div class="media-item" data-type="video">
+            <video controls poster="http://localhost:1313/FAD-WebPage/images/placeholder.svg" src="/FAD-WebPage/images/areas/oceanos/pez_dorado.mp4" onerror="this.poster='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            </video>
+            <div class="caption">
+                <strong>Pez Dorado</strong>
+                <em>por Lucía Fernández</em>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+<div class="area-block" data-area="selvas">
+    <h2 class="area-title">Selvas</h2>
+    <div class="media-grid">
+        
+        
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/selvas/jaguar.jpg" alt="Jaguar en Acecho" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Jaguar en Acecho</strong>
+                <em>por Ernesto Núñez</em>
+            </div>
+        </div>
+        
+        <div class="media-item" data-type="photo">
+            <img src="/FAD-WebPage/images/areas/selvas/mono.gif" alt="Mono Travieso" onerror="this.src='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            <div class="caption">
+                <strong>Mono Travieso</strong>
+                <em>por Patricia Díaz</em>
+            </div>
+        </div>
+        
+        
+        
+        <div class="media-item" data-type="video">
+            <video controls poster="http://localhost:1313/FAD-WebPage/images/placeholder.svg" src="/FAD-WebPage/images/areas/selvas/ave_tropical.mp4" onerror="this.poster='http:\/\/localhost:1313\/FAD-WebPage\/images\/placeholder.svg'">
+            </video>
+            <div class="caption">
+                <strong>Ave Tropical</strong>
+                <em>por Raúl Martínez</em>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-hidden">
+  <div id="lightbox-overlay"></div>
+  <img id="lightbox-img" src="" alt="Foto ampliada">
+  <span id="lightbox-close">&times;</span>
+</div>
+
+
+
+  </main>
+
+  
+<footer class="site-footer">
+  <div class="footer-sections">
+    <a href="/FAD-WebPage/">Inicio</a>
+    <p></p>
+    <a href="/FAD-WebPage/entrevistas/">Entrevistas</a>
+    <p></p>
+    <a href="/FAD-WebPage/galeria/">Galeria</a>
+    <p></p>
+    <a href="/FAD-WebPage/areas/">Áreas de profundización</a>
+    <a href="/FAD-WebPage/areas/edicion-grafica/">Edición Gráfica</a>
+    <a href="/FAD-WebPage/areas/iconicidad-y-entornos/">Iconicidad y Entornos</a>
+    <a href="/FAD-WebPage/areas/grafica-e-ilustracion/">Gráfica e Ilustración</a>
+    <a href="/FAD-WebPage/areas/medios-audiovisuales-e-hipermedia/">Medios Audiovisuales e Hipermedia</a>
+  </div>
+
+  <div class="footer-logos">
+    <img src="/FAD-WebPage/images/footers/footer1.webp" alt="Logo 1">
+    <img src="/FAD-WebPage/images/footers/footer2.webp" alt="Logo 2">
+    <img src="/FAD-WebPage/images/footers/footer3.webp" alt="Logo 3">
+    <img src="/FAD-WebPage/images/footers/footer4.webp" alt="Logo 4">
+    <img src="/FAD-WebPage/images/footers/footer5.webp" alt="Logo 5">
+    <img src="/FAD-WebPage/images/footers/footer6.webp" alt="Logo 6">
+  </div>
+
+  <div class="footer-copy">
+    &copy; J 2025 
+  </div>
+</footer>
+
+  
+  <script src="http://localhost:1313/FAD-WebPage/js/navbar.js"></script>
+  <script src="/FAD-WebPage/js/carousel.js"></script>
+  <script src="/FAD-WebPage/js/gallery.js"></script>
+</body>
+</html>

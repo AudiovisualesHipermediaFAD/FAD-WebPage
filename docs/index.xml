@@ -51,6 +51,13 @@
       <description>&lt;p&gt;María López es diseñadora visual y experta en branding con más de 10 años de trayectoria. Hablamos con ella sobre su proceso creativo, retos y consejos para nuevos profesionales.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Galería de Fotos y Videos</title>
+      <link>http://localhost:1313/FAD-WebPage/galeria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/galeria/</guid>
+      <description>&lt;p&gt;Bienvenido a la galería de especies por área. Usa el menú superior para elegir entre fotos, vídeos o ambos, filtra por áreas y haz clic en &lt;strong&gt;Aplicar&lt;/strong&gt; para ver solo lo seleccionado. ¡Disfruta!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Gráfica e Ilustración</title>
       <link>http://localhost:1313/FAD-WebPage/areas/grafica-e-ilustracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

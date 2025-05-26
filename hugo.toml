@@ -55,10 +55,10 @@ theme = 'FAD'
     url        = "/entrevistas/"
     weight     = 20
 
-  # Videos (enlace directo)
+  # Galerias de fotos y videos (enlace directo)
   [[menu.main]]
-    identifier = "videos"
-    name       = "Videos"
-    url        = "/videos/"
+    identifier = "galeria"
+    name       = "Galeria"
+    url        = "/galeria/"
     weight     = 30
 

@@ -1,0 +1,255 @@
+/* static/css/gallery.css */
+
+/* Contenedor global */
+.gallery-container {
+    max-width: var(--max-width);
+    margin: 2rem auto;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(var(--bg-blur));
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+/* --- Menú radial --- */
+.radial-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.radial-menu input[type="radio"] {
+    display: none;
+}
+.radial-menu label:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+    border-color: var(--hover-color);
+}
+.radial-menu label {
+    cursor: pointer;
+    padding: .6rem 1.2rem;
+    border-radius: 999px;
+    border: 2px solid var(--primary-color);
+    background: var(--white);
+    transition: background-color .3s, color .3s;
+}
+
+.radial-menu input:checked+label {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+/* --- Panel de filtros --- */
+.filters-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.filters-panel fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filters-panel legend {
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.filters-panel label {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+/* --- Botón Aplicar (basado en .btn-test) --- */
+.btn-apply {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.btn-apply:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+    color: white;
+}
+
+/* --- Bloques por área y rejilla interna --- */
+.area-block {
+    margin-bottom: 4rem;
+}
+
+.area-block .area-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.area-block .media-grid {
+    display: grid;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 8px solid var(--link-color);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(var(--bg-blur));
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.area-block .media-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-block .media-item img,
+.area-block .media-item video {
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: var(--main-shadow);
+    display: block;
+
+}
+
+.controls {
+    margin-bottom: 1rem;
+}
+
+/* Centrar la rejilla y ajustar columnas */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Limita el ancho máximo y preserva proporción */
+.media-item {
+    position: relative;
+    overflow: hidden;
+    cursor: help;
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Asegura que imagen/video conserven su aspecto */
+.media-item img,
+.media-item video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Overlay */
+.media-item .caption {
+    position: absolute;
+    border-radius: var(--border-radius);
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+
+.media-item:hover .caption,
+.media-item.show-caption .caption {
+    transform: translateY(0);
+}
+/* === Lightbox / Modal === */
+#lightbox-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+#lightbox-modal.show {
+  visibility: visible;
+  opacity: 1;
+}
+#lightbox-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+#lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--main-shadow);
+  position: relative;
+  z-index: 1001;
+}
+#lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1002;
+}
+/* Contenedor de imagen para zoom y pan */
+#lightbox-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+  display: grid;
+  place-items: center;
+}
+#lightbox-img {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  user-select: none;
+  /* Deshabilitar selección de texto y arrastre por defecto */
+  -webkit-user-drag: none;
+}
+#lightbox-img.zoomed {
+  cursor: grab;
+}
+#lightbox-img.zoomed:active {
+  cursor: grabbing;
+}
