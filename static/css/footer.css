@@ -16,13 +16,13 @@
 }
 
 .site-footer .footer-sections a {
-  color: #004d33;
+  color: var(--primary-color);
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
 }
 .site-footer .footer-sections a:hover {
-  color: #A020F0;
+  color: var(--hover-color);
 }
 
 .site-footer .footer-logos {
@@ -47,6 +47,6 @@
 }
 
 .site-footer .footer-copy {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: #777;
 }

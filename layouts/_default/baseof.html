@@ -4,18 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <link rel="icon" type="image/png" href="{{ "/images/logo.png" | absURL }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/logo.png" | absURL }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/images/logo.png" | absURL }}">
-  <link rel="apple-touch-icon" href="{{ "/images/logo.png" | absURL }}">
-
+  <link rel="icon" type="image/png" href="{{ "images/logo.png" | absURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/logo.png" | absURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/logo.png" | absURL }}">
+  <link rel="apple-touch-icon" href="{{ "images/logo.png" | absURL }}">
+  
   <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-
+  
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="{{ "css/navbar.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/navbar.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/footer.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/areas.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}"> 
 </head>
 <body>
   {{ partial "navbar.html" . }}
@@ -27,5 +28,6 @@
   {{ partial "footer.html" . }}
   
   <script src="{{ "js/navbar.js" | absURL }}"></script>
+  <script src="{{ "js/carousel.js" | relURL }}"></script>
 </body>
 </html>

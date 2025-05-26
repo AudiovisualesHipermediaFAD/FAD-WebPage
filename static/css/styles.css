@@ -1,34 +1,73 @@
-/* static/css/styles.css */
+/* ================================================ */
+/* Color variables                                  */
+/* ================================================ */
+:root {
+  /* for components like navbar */
+  --primary-color: #06537d;
+  --hover-color: #7a7a7a;      
+  --navbar-bg: rgba(255, 255, 255, 0.6);
+  --dropdown-bg: rgba(255, 255, 255, 0.8);
+  --white: #ffffff;
+  --link-hover-bg: rgba(155, 89, 182, 0.1);
+  --bg-blur: 10px;
+  --max-width: 1200px;
+  --border-radius: 1rem;
+  --shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 
-/* Fuente global */
+  /* Custom project colors */
+  --text-color: #252A34;
+  --heading-color: #F41928;
+  --accent-color: #078DD6;
+  --tertiary-color: #F2A900;
+  --paragraph-color: #555;
+  --list-color: #444;
+  --blockquote-bg: #EAEAEA;
+  --link-color: #FF2E63;
+  --main-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+}
+
+/* ================================================ */
+/* Global Styles                                    */
+/* ================================================ */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: #252A34;
-}
-/* Contenido principal */
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 2rem 2.5rem;
-  border-radius: 1rem;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.07);
-  color: #252A34;
+  color: var(--text-color);
 }
 
-/* Encabezados */
-main h1, main h2, main h3 {
+/* ================================================ */
+/* Main Content                                     */
+/* ================================================ */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: var(--white);
+  padding: 2rem 2.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--main-shadow);
+  color: var(--text-color);
+  margin-bottom: 4rem;
+}
+
+/* ================================================ */
+/* Headers                                          */
+/* ================================================ */
+main h1{
+  color: var(--heading-color);
+}
+main h2 {
+  color: var(--accent-color);
+}
+main h3 {
   font-weight: 700;
-  color: #FF2E63; /* color rojo principal */
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 
 main h1 {
   font-size: 3rem;
-  border-bottom: 3px solid #08D9D6;
+  border-bottom: 3px solid var(--accent-color);
   padding-bottom: 0.5rem;
-
   text-align: center;
 }
 
@@ -39,25 +78,38 @@ main h2 {
 }
 
 main h3 {
+  color: var(--tertiary-color);
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-/* Párrafos */
+/* ================================================ */
+/* Paragraphs                                       */
+/* ================================================ */
 main p {
   font-size: 1.125rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
   text-align: justify;
-  color: #555;
+  color: var(--paragraph-color);
+  max-width: 1200px;
 }
 
-/* Listas */
-main ul, main ol {
+.content-section .text {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* ================================================ */
+/* Lists                                            */
+/* ================================================ */
+main ul,
+main ol {
   margin-left: 2rem;
   margin-bottom: 1.5rem;
-  color: #444;
+  color: var(--list-color);
   font-size: 1.1rem;
 }
 
@@ -65,38 +117,43 @@ main li {
   margin-bottom: 0.5rem;
 }
 
-/* Citas */
+/* ================================================ */
+/* Blockquotes                                      */
+/* ================================================ */
 main blockquote {
-  border-left: 4px solid #08D9D6;
-  background-color: #EAEAEA;
-  color: #08D9D6;
+  border-left: 4px solid var(--accent-color);
+  background-color: var(--blockquote-bg);
+  color: var(--accent-color);
   padding: 1rem 1.5rem;
   margin: 2rem 0;
   font-style: italic;
   border-radius: 0.5rem;
 }
 
-/* Enlaces */
+/* Links */
 main a {
-  color: #C8102E;
+  color: var(--link-color);
   text-decoration: none;
   font-weight: 600;
 }
 
 main a:hover {
   text-decoration: underline;
+  background-color: var(--link-hover-bg);
 }
 
-/* Imágenes */
+/* Images */
 main img {
   max-width: 100%;
-  border-radius: 1rem;
-  box-shadow: 0 8px 20px rgba(200,16,46,0.15);
-  margin: 2rem 0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 20px rgba(200, 16, 46, 0.15);
+  margin: 2rem auto;
+  display: block;
 }
 
-
-/* Imagen */
+/* ================================================ */
+/* Hero Section                                     */
+/* ================================================ */
 .hero-section {
   position: relative;
   height: 90vh;
@@ -104,22 +161,21 @@ main img {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border-radius: 2rem;
-  margin: 3rem auto;
-  max-width: 1200px;
-  padding: 1rem;
+  border-radius: 3rem;
+  margin-bottom: 3rem auto;
+  max-width: var(--max-width);
+
 }
 
 .hero-bg {
   position: absolute;
-  top: 0;
-  left: 0;
+
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
   filter: blur(4px) brightness(0.8);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 .hero-content {
@@ -127,15 +183,17 @@ main img {
   z-index: 1;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
-  padding: 2rem;
+  padding: 1rem;
+  padding-left: 2;
   border-radius: 1.5rem;
-  max-width: 700px;
+  min-width: 325px;
+  max-width: 900px;
   text-align: center;
 }
 
 .hero-title {
-  font-size: 2.5rem;
-  color: #C8102E;
+  font-size: 2.4rem;
+  color: var(--heading-color);
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -143,49 +201,52 @@ main img {
 .hero-text {
   font-size: 1.2rem;
   color: #333;
-  text-align: justify;
+  text-justify: inter-word;
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    margin: 1rem;
+  }
+}
+
 /* ================================================ */
-/* Desktop: Secciones 50% Imagen / 50% Texto        */
-/* ================================================ */
+/* 1. Desktop: 50% Image / 50% Text Sections       */
+/* 2. Mobile: Image Above Text                    */
+/* ============================================= */
 @media (min-width: 769px) {
-  /* Asegúrate de que cada sección use display:flex */
   main > section.content-section {
     display: flex;
-    align-items: center;  /* centra verticalmente */
-    gap: 2rem;            /* separación entre columnas */
+    align-items: center;
+    gap: 2rem;
   }
 
-  /* Cada columna ocupa la mitad */
   main > section.content-section .text,
   main > section.content-section .media {
+    width:90%;
     flex: 1 1 50%;
   }
 
-  /* Que la imagen llene su contenedor */
   main > section.content-section .media img {
-    width: 100%;
+    width:100%;
     height: auto;
     display: block;
-    border-radius: 1rem;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   }
 }
-/* ================================================ */
-/* Mobile: imagen arriba del texto                  */
-/* ================================================ */
+/* ======================== */
 @media (max-width: 768px) {
   main > section.content-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* La imagen va primero */
+  
   main > section.content-section .media {
     order: -1;
   }
-  /* El texto después */
+  
   main > section.content-section .text {
     order: 0;
   }

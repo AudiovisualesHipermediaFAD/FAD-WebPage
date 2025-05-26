@@ -1,25 +1,29 @@
 /* ===== Bloques clickeables de Áreas (area-card-link) ===== */
-.area-card-link {
-  display: block;
-  text-decoration: none;           /* quitar subrayado */
-  color: inherit;                   /* hereda color del texto */
-  margin: 1.5rem auto;              /* separación entre cards */
-  max-width: 800px;
+.area-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 2rem; /* Aumenta el espaciado interno */
+  margin: 2rem auto; /* Aumenta la separación externa */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .area-card {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.384);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
-/* Efecto hover en toda la tarjeta */
+/* Hover effect for the entire card */
 .area-card-link:hover .area-card {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
 }
 
 /* Títulos y párrafos */
@@ -28,8 +32,10 @@
   margin-bottom: 0.75rem;
   font-size: 1.5rem;
 }
+
 .area-card .text p {
   margin: 0;
   line-height: 1.6;
   text-align: justify;
+  text-justify: inter-word;
 }

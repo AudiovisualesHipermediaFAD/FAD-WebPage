@@ -1,16 +1,39 @@
 {{ define "main" }}
-  <!-- Cabecera de la entrevista -->
+  <!-- Cabecera individual -->
   <section class="content-section">
     <div class="text">
       <h1>{{ .Title }}</h1>
-      <p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>
+      <br><br>
     </div>
   </section>
 
-  <!-- Contenido completo de la entrevista -->
+  <!-- Carrusel de imágenes -->
+  {{ if .Params.images }}
+  <section class="content-section carousel-section">
+    <div class="carousel" id="carousel-{{ .File.BaseFileName }}">
+      <button class="carousel-btn prev" data-target="carousel-{{ .File.BaseFileName }}">‹</button>
+      <div class="carousel-track">
+        {{ range $idx, $src := .Params.images }}
+        <div class="carousel-slide" data-index="{{ $idx }}">
+          <img src="{{ $src | relURL }}" alt="Obra {{ add $idx 1 }} de {{ $.Title }}">
+        </div>
+        {{ end }}
+      </div>
+      <button class="carousel-btn next" data-target="carousel-{{ .File.BaseFileName }}">›</button>
+    </div>
+  </section>
+  {{ end }}
+
+
+  <!-- Contenido completo -->
   <section class="content-section">
     <div class="text">
-      {{ .Content }}
+      {{ $parts := split .RawContent "<!--more-->" }}
+      {{ if gt (len $parts) 1 }}
+        {{ index $parts 1 | markdownify }}
+      {{ else }}
+        {{ .Content }}
+      {{ end }}
     </div>
   </section>
 {{ end }}

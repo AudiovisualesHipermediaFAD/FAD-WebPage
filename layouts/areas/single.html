@@ -1,17 +1,47 @@
 {{ define "main" }}
-<!-- Cabecera individual -->
-<section class="content-section">
-  <div class="text">
-    <h1>{{ .Title }}</h1>
-    <hr>
+
+  <!-- Cabecera individual -->
+  <section class="content-section">
     <div class="text">
-      {{ $parts := split .RawContent "<!--more-->" }}
-      {{ if gt (len $parts) 1 }}
-      {{ index $parts 1 | markdownify }}
-      {{ else }}
-      {{ .Content }}
-      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <hr>
+      <div class="text">
+        {{ $parts := split .RawContent "<!--more-->" }}
+        {{ if gt (len $parts) 1 }}
+          {{ index $parts 1 | markdownify }}
+        {{ else }}
+          {{ .Content }}
+        {{ end }}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Carrusel de imágenes -->
+  {{ if .Params.images }}
+  <section class="content-section carousel-section">
+    <div class="carousel" id="carousel-{{ .File.BaseFileName }}">
+      <button class="carousel-btn prev">‹</button>
+      <div class="carousel-track">
+        {{ range $idx, $src := .Params.images }}
+        <div class="carousel-slide" data-index="{{ $idx }}">
+          <img src="{{ $src | relURL }}" alt="Obra {{ add $idx 1 }} - {{ $.Title }}">
+        </div>
+        {{ end }}
+      </div>
+      <button class="carousel-btn next">›</button>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Acerca del Área -->
+  {{ $aboutPath := print .File.Dir "about.md" }}
+  {{ $about := site.GetPage $aboutPath }}
+  {{ if $about }}
+  <section class="content-section area-about">
+    <div class="text">
+      {{ $about.Content }}
+    </div>
+  </section>
+  {{ end }}
+
 {{ end }}

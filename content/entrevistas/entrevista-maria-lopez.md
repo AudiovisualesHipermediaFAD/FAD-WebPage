@@ -1,10 +1,14 @@
 ---
 title: "Entrevista con María López"
-date: 2025-05-21T14:00:00Z
 draft: false
+images:
+    - "images/entrevistas/maria-lopez/obra1.jpg"
+    - "images/entrevistas/maria-lopez/obra2.jpg"
+    - "images/entrevistas/maria-lopez/obra3.jpeg"
 ---
 
 María López es diseñadora visual y experta en branding con más de 10 años de trayectoria. Hablamos con ella sobre su proceso creativo, retos y consejos para nuevos profesionales.  
+
 <!--more-->
 
 ## ¿Cómo descubriste tu pasión por el diseño?

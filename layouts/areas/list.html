@@ -10,11 +10,14 @@
 
 <!-- Listado de sub-áreas -->
 {{ range .Pages.ByWeight.ByDate }}
-<section class="content-section area-card">
-    <div class="text">
-        <h2 style="text-align:center;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary }}</p>
-    </div>
-</section>
+<a href="{{ .RelPermalink }}" class="area-card-link">
+    <section class="content-section area-card">
+        <div class="text">
+            <h2 style="text-align:center;">{{ .Title }}</h2>
+            <p>{{ .Summary }}</p>
+        </div>
+    </section>
+</a>
+
 {{ end }}
 {{ end }}
