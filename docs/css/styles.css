@@ -18,7 +18,7 @@
   --text-color: #252A34;
   --heading-color: #F41928;
   --accent-color: #078DD6;
-  --tertiary-color: #F2A900;
+  --tertiary-color: #e6bb00;
   --paragraph-color: #555;
   --list-color: #444;
   --blockquote-bg: #EAEAEA;
@@ -33,6 +33,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
+  background-color: #cecece;
 }
 
 /* ================================================ */
@@ -53,6 +54,7 @@ main {
 /* Headers                                          */
 /* ================================================ */
 main h1{
+  margin-bottom: 1.5rem;
   color: var(--heading-color);
 }
 main h2 {
@@ -69,12 +71,16 @@ main h1 {
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.5rem;
   text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 main h2 {
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 main h3 {
@@ -82,6 +88,8 @@ main h3 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* ================================================ */
@@ -95,6 +103,8 @@ main p {
   text-align: justify;
   color: var(--paragraph-color);
   max-width: var(--max-width);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .content-section .text {
@@ -116,6 +126,8 @@ main ol {
 
 main li {
   margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* ================================================ */
@@ -129,6 +141,8 @@ main blockquote {
   margin: 2rem 0;
   font-style: italic;
   border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Links */
@@ -148,7 +162,8 @@ main img {
   max-width: 100%;
   border-radius: var(--border-radius);
   box-shadow: 0 8px 20px rgba(200, 16, 46, 0.15);
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding: 1rem;
   display: block;
 }
 

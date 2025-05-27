@@ -2,13 +2,13 @@
 title: "Medios Audiovisuales e Hipermedia"
 layout: "Area"
 draft: false
+
 ---
 
 El área de **Medios Audiovisuales e Hipermedia** se enfoca en el diseño y la producción de **contenidos audiovisuales** como video, animación, sonido y montaje, así como en la creación de **experiencias hipermedia interactivas** que permitan al usuario participar activamente en la construcción del mensaje.
 
 <!--more-->
-
-![UX Design](/FAD-WebPage/images/placeholder.svg)
+![Iconicidad](/FAD-WebPage/images/areas/medios-audiovisuales-e-hipermedia/hiper.png)
 
 El área de Medios Audiovisuales e Hipermedia se enfoca en el diseño y la producción de contenidos audiovisuales como:
 - video
@@ -26,8 +26,6 @@ Con el uso de herramientas digitales y lenguajes audiovisuales contemporáneos s
 - El pensamiento crítico.
 - El diseño centrado en el usuario.
 - La innovación comunicativa.
-
-> ![UX Design](/FAD-WebPage/images/placeholder.svg)
 
 # Acerca del Área
 
@@ -73,6 +71,3 @@ Creatividad, innovación, pensamiento crítico, trabajo colaborativo, ética dig
 
 El área de Medios Audiovisuales e Hipermedia se aplica en el ámbito laboral mediante la creación de contenidos visuales, sonoros e interactivos para múltiples plataformas y formatos. Profesionales de esta área trabajan en cine, televisión, productoras audiovisuales, agencias digitales, medios de comunicación, estudios de animación, empresas de tecnología y proyectos culturales.
 
----
-
-###  Mira lo que puedes lograr:
