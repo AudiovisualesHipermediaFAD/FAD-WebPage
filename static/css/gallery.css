@@ -36,7 +36,7 @@
     transition: background-color .3s, color .3s;
 }
 
-.radial-menu input:checked+label {
+.radial-menu input:checked + label {
     background-color: var(--primary-color);
     color: #fff;
     border-color: var(--primary-color);
@@ -56,7 +56,7 @@
     border: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+
 }
 
 .filters-panel legend {
@@ -189,67 +189,56 @@
 .media-item.show-caption .caption {
     transform: translateY(0);
 }
-/* === Lightbox / Modal === */
+/* ==== Lightbox ==== */
 #lightbox-modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: grid;
-  place-items: center;
-  z-index: 1000;
-  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  pointer-events: none;
   opacity: 0;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
-#lightbox-modal.show {
-  visibility: visible;
+
+#lightbox-modal:not(.lightbox-hidden) {
+  pointer-events: all;
   opacity: 1;
 }
+
 #lightbox-overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: rgba(0,0,0,0.8);
 }
+
 #lightbox-img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: var(--border-radius);
-  box-shadow: var(--main-shadow);
   position: relative;
-  z-index: 1001;
+  max-width: 90%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+  z-index: 2001;
 }
+
 #lightbox-close {
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   right: 1.5rem;
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
-  z-index: 1002;
-}
-/* Contenedor de imagen para zoom y pan */
-#lightbox-img-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 90%;
-  height: 90%;
-  display: grid;
-  place-items: center;
-}
-#lightbox-img {
-  cursor: zoom-in;
-  transition: transform 0.3s ease;
-  transform-origin: center center;
+  z-index: 2002;
   user-select: none;
-  /* Deshabilitar selección de texto y arrastre por defecto */
-  -webkit-user-drag: none;
 }
-#lightbox-img.zoomed {
-  cursor: grab;
-}
-#lightbox-img.zoomed:active {
-  cursor: grabbing;
+
+.lightbox-hidden {
+  display: none;
 }
