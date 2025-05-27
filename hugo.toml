@@ -10,7 +10,7 @@ theme = 'FAD'
 [params]
   heroTitle    = "Licenciatura en Diseño y Comunicación Visual"
   heroSubtitle = "Es aquí donde convergen el arte, la tecnología y el pensamiento crítico para construir mensajes que inspiran, educan e impactan de manera significativa en la sociedad."
-  testURL = "https://dominio.com/mi-test"
+  testURL = "/FAD-WebPage/test-areas/"
 
 [menu]
   # Áreas de profundización (padre)

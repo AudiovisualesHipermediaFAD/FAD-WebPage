@@ -1,0 +1,40 @@
+/* Asegura posición relativa para animar */
+form fieldset {
+  position: relative;
+  transition: none;
+}
+
+/* Clases de animación */
+.slide-in-right {
+  animation: slideInRight 0.3s ease-out forwards;
+}
+.slide-in-left {
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+/* Keyframes */
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+
+/* Navegación */
+.navigation-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navigation-buttons button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

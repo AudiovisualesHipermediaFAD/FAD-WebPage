@@ -50,5 +50,7 @@
     <loc>http://localhost:1313/FAD-WebPage/areas/iconicidad-y-entornos/</loc>
   </url><url>
     <loc>http://localhost:1313/FAD-WebPage/areas/medios-audiovisuales-e-hipermedia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FAD-WebPage/test-areas/</loc>
   </url>
 </urlset>

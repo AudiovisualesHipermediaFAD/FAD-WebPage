@@ -78,5 +78,12 @@
       <guid>http://localhost:1313/FAD-WebPage/areas/medios-audiovisuales-e-hipermedia/</guid>
       <description>&lt;p&gt;El área de &lt;strong&gt;Medios Audiovisuales e Hipermedia&lt;/strong&gt; se enfoca en el diseño y la producción de &lt;strong&gt;contenidos audiovisuales&lt;/strong&gt; como video, animación, sonido y montaje, así como en la creación de &lt;strong&gt;experiencias hipermedia interactivas&lt;/strong&gt; que permitan al usuario participar activamente en la construcción del mensaje.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Test de Áreas</title>
+      <link>http://localhost:1313/FAD-WebPage/test-areas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/test-areas/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

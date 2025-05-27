@@ -148,7 +148,7 @@ main img {
   max-width: 100%;
   border-radius: var(--border-radius);
   box-shadow: 0 8px 20px rgba(200, 16, 46, 0.15);
-
+  margin: 1rem auto;
   display: block;
 }
 
