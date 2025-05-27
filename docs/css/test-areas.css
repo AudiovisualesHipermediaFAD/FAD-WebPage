@@ -26,7 +26,7 @@
     user-select: text;
     font-size: 1.35rem;
     margin: 0;
-    color: var(--tertiary-color);
+    color: var(--accent-color);
     margin: 1rem;
 }
 

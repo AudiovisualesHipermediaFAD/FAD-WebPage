@@ -130,6 +130,15 @@ main li {
   margin-right: 1rem;
 }
 
+.list-card {
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #f9f9f9;
+  box-shadow: var(--main-shadow);
+}
+
 /* ================================================ */
 /* Blockquotes                                      */
 /* ================================================ */
@@ -147,13 +156,13 @@ main blockquote {
 
 /* Links */
 main a {
-  color: var(--link-color);
+  color: var(--primary-color);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 main a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   background-color: var(--link-hover-bg);
 }
 
@@ -167,9 +176,7 @@ main img {
   display: block;
 }
 
-/* ================================================ */
-/* Hero Section                                     */
-/* ================================================ */
+/* Hero Section */
 .hero-section {
   position: relative;
   height: 90vh;
