@@ -8,7 +8,6 @@ images:
   - "images/areas/edicion-grafica/Triptico FINAL.png"
   - "images/areas/edicion-grafica/Proyecto final Diseño.png"
   - "images/areas/edicion-grafica/Poster Promocion Pizzeria Urbano Negro y Naranja.png"
-  - "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).jpg"
   - "images/areas/edicion-grafica/Caligrama.png"
   - "images/areas/edicion-grafica/ck.jpg"
 ---
