@@ -16,7 +16,6 @@ media:
     photos:
       - src: "images/areas/edicion-grafica/Caligrama.png"
         title: "Caligrama Tipográfico"
-   
       - src: "images/areas/edicion-grafica/ck.png"
         title: "ck"
       - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).png"
@@ -43,18 +42,16 @@ media:
         title: "Anime"
       - src: "images/areas/grafica-e-ilustracion/Identidad_Grafica(2).jpeg"
         title: "Identidad gráfica"
-      - src: "images/areas/grafica-e-ilustracion/Identidad_Grafica.jpeg"
+      - src: "images/areas/grafica-e-ilustracion/Identidad_grafica.jpeg"
         title: "Identidad gráfica"
       - src: "images/areas/grafica-e-ilustracion/rostros.jpg"
         title: "Rostros"
       - src: "images/areas/grafica-e-ilustracion/Imagen Let me In.png"
         title: "Let me in"
-      - src: "images/areas/grafica-e-ilustracion/IMG_1788.png"
-        title: "Dibujo a mano"
       - src: "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
         title: "Icono 1"
       - src: "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
-        title: "Icono 1"
+        title: "Icono 2"
       - src: "images/areas/grafica-e-ilustracion/mural.jpg"
         title: "Mural"
       - src: "images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg"
@@ -63,10 +60,6 @@ media:
         title: "Mural"
       - src: "images/areas/grafica-e-ilustracion/rostro.jpg"
         title: "Rostro"
-    videos:
-      - src: "images/areas/grafica-e-ilustracion/pez_dorado.mp4"
-        title: "Pez Dorado"
-        author: "Lucía Fernández"
 
   iconicidad-y-entornos:
     photos:
@@ -90,9 +83,9 @@ media:
       - src: "images/areas/medios-audiovisuales-e-hipermedia/2.png"
         title: "Pagina Web"
     videos:
-      - src: "images/videos/medios-audiovisuales-e-hipermedia/Vídeo Hipermedia VR.mp4"
-        title: "Realidad Virtual"
+      - src: "images/videos/medios-audiovisuales-e-hipermedia/Vídeo_Hipermedia_VR.mp4"
         thumbnail: "images/areas/medios-audiovisuales-e-hipermedia/hiper.png"
+        title: "Realidad Virtual"
 ---
 
 Bienvenido a la galería de especies por área. Usa el menú superior para elegir entre fotos, vídeos o ambos, filtra por áreas y haz clic en **Aplicar** para ver solo lo seleccionado. ¡Disfruta!

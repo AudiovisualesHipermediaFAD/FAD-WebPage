@@ -7,7 +7,6 @@ images:
     - "images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg"
     - "images/areas/grafica-e-ilustracion/rostros.jpg"
     - "images/areas/grafica-e-ilustracion/mural.jpg"
-    - "images/areas/grafica-e-ilustracion/IMG_1788.png"
     - "images/areas/grafica-e-ilustracion/negros rojos y figuras.jpeg"
     - "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
     - "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
