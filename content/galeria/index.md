@@ -70,9 +70,9 @@ media:
 
   medios-audiovisuales-e-hipermedia:
     photos:
-      - src: "images/areas/medios-audiovisuales-e-hipermedia/1.png"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/1.jpg"
         title: "Instagram"
-      - src: "images/areas/medios-audiovisuales-e-hipermedia/2.png"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
         title: "Pagina Web"
     videos:
       - src: "images/videos/medios-audiovisuales-e-hipermedia/Vídeo_Hipermedia_VR.mp4"
