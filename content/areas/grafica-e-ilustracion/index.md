@@ -58,7 +58,7 @@ Se promueve además el dominio de tecnologías emergentes y herramientas digital
 
 El área también fomenta una actitud investigativa, experimental e interdisciplinaria, impulsando la creación de lenguajes visuales originales, híbridos y sensibles a las transformaciones culturales y tecnológicas. Se invita al estudiante a experimentar con soportes alternativos, técnicas mixtas, procesos colaborativos y narrativas no convencionales, desde una mirada crítica y comprometida con temas como la diversidad, la equidad, la memoria, el territorio, la sostenibilidad y la transformación social.
 
-![Identidad grafica](/FAD-WebPage/images/areas/grafica-e-ilustracion/identidad_grafica(2).jpeg)
+![Identidad grafica](/FAD-WebPage/images/areas/grafica-e-ilustracion/Identidad_Grafica(2).jpeg)
 
 A través de proyectos prácticos, reflexivos y colaborativos, el estudiante aprenderá a integrar de manera coherente y estratégica la ilustración, la fotografía y la gráfica dentro del proceso de diseño, desarrollando productos visuales consistentes, innovadores y adaptados a los distintos medios de difusión y consumo cultural. Esta formación lo prepara para desempeñarse con solvencia en escenarios profesionales como estudios de diseño, editoriales, agencias de publicidad, productoras audiovisuales, emprendimientos creativos, medios digitales, instituciones culturales y proyectos educativos.
 
