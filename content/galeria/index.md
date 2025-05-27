@@ -18,9 +18,9 @@ media:
         title: "Caligrama Tipográfico"
       - src: "images/areas/edicion-grafica/ck.jpg"
         title: "ck"
-      - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).jpeg"
+      - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).png"
         title: "Banner"
-      - src: "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).png"
+      - src: "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).jpeg"
         title: "Xochiquetzali´s Arreglos florales"
       - src: "images/areas/edicion-grafica/Periódico-Tania Herrera.png"
         title: "Periodico"
@@ -46,8 +46,6 @@ media:
         title: "Identidad gráfica"
       - src: "images/areas/grafica-e-ilustracion/rostros.jpg"
         title: "Rostros"
-      - src: "images/areas/grafica-e-ilustracion/Imagen Let me In.png"
-        title: "Let me in"
       - src: "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
         title: "Icono 1"
       - src: "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
@@ -56,10 +54,6 @@ media:
         title: "Mural"
       - src: "images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg"
         title: "Mural Jake"
-      - src: "images/areas/grafica-e-ilustracion/negros rojos y figuras.jpeg"
-        title: "Mural"
-      - src: "images/areas/grafica-e-ilustracion/rostro.jpg"
-        title: "Rostro"
 
   iconicidad-y-entornos:
     photos:
@@ -73,7 +67,7 @@ media:
         title: "Diseño estructura" 
       - src: "images/areas/iconicidad-y-entornos/5.png"
         title: "Dibujo geometrico" 
-      - src: "images/areas/iconicidad-y-entornos/6.png"
+      - src: "images/areas/iconicidad-y-entornos/6.jpg"
         title: "Maqueta" 
 
   medios-audiovisuales-e-hipermedia:
