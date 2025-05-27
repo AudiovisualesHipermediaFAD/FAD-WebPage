@@ -16,9 +16,9 @@ media:
     photos:
       - src: "images/areas/edicion-grafica/Caligrama.png"
         title: "Caligrama Tipográfico"
-      - src: "images/areas/edicion-grafica/ck.png"
+      - src: "images/areas/edicion-grafica/ck.jpg"
         title: "ck"
-      - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).png"
+      - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).jpeg"
         title: "Banner"
       - src: "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).png"
         title: "Xochiquetzali´s Arreglos florales"
