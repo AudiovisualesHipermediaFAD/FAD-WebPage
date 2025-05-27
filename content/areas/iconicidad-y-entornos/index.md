@@ -3,12 +3,12 @@ title: "Iconicidad y Entornos"
 layout: "Area"
 draft: false
 images:
-    - "images/areas/iconicidad-y-entornos/4.png"
+    - "images/areas/iconicidad-y-entornos/4.jpg"
     - "images/areas/iconicidad-y-entornos/3.png"
     - "images/areas/iconicidad-y-entornos/5.png"
     - "images/areas/iconicidad-y-entornos/2.png"
     - "images/areas/iconicidad-y-entornos/1.png"
-    - "images/areas/iconicidad-y-entornos/6.png"
+    - "images/areas/iconicidad-y-entornos/6.jpg"
 ---
 
 El área de **Iconicidad y Entornos** se enfoca en la creación y aplicación de sistemas icónicos que incluyen símbolos, pictogramas, señalética y lenguajes visuales destinados a **facilitar la orientación, comprensión e identidad** en distintos espacios.
@@ -44,7 +44,7 @@ Se promueve una perspectiva de diseño sostenible, responsable e innovadora, que
 
 El área fomenta el desarrollo de habilidades analíticas y proyectuales que permitan observar, interpretar y transformar el entorno mediante propuestas visuales que traduzcan conceptos abstractos en formas perceptibles, accesibles y funcionales. Se valora la capacidad de adaptabilidad del diseño a diferentes escalas, materiales, tecnologías y públicos, así como la integración de la experiencia del usuario como criterio esencial en la evaluación de los sistemas diseñados. Factores como la accesibilidad universal, la legibilidad gráfica, la coherencia comunicativa y la experiencia de uso son considerados fundamentales en la construcción de propuestas sólidas y pertinentes.
 
-![Iconicidad portada](/FAD-WebPage/images/areas/iconicidad-y-entornos/4.png)
+![Iconicidad portada](/FAD-WebPage/images/areas/iconicidad-y-entornos/4.jpg)
 
 Asimismo, se impulsa el trabajo interdisciplinario y colaborativo con campos como la arquitectura, el diseño industrial, la museografía, el urbanismo, el marketing y las ciencias sociales, favoreciendo la creación de soluciones integrales que articulen de manera efectiva forma, función y comunicación. Este enfoque permite formar profesionales con una mirada estratégica, capaces de liderar procesos de diseño orientados a la construcción y fortalecimiento de la identidad visual y espacial de organizaciones, marcas, instituciones culturales, proyectos educativos, sociales y comerciales.
 En síntesis, el área de Iconicidad y Entornos propone un abordaje reflexivo, técnico y creativo del diseño como herramienta de construcción simbólica y experiencia situada, preparando a los estudiantes para intervenir de manera crítica y propositiva en escenarios diversos y en constante transformación.

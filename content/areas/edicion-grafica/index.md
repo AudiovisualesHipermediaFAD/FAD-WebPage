@@ -8,10 +8,9 @@ images:
   - "images/areas/edicion-grafica/Triptico FINAL.png"
   - "images/areas/edicion-grafica/Proyecto final Diseño.png"
   - "images/areas/edicion-grafica/Poster Promocion Pizzeria Urbano Negro y Naranja.png"
-  - "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).png"
+  - "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).jpg"
   - "images/areas/edicion-grafica/Caligrama.png"
-  - "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (4).png"
-  - "images/areas/edicion-grafica/ck.png"
+  - "images/areas/edicion-grafica/ck.jpg"
 ---
 
 El área de **Edición Gráfica** se enfoca en la formación integral de profesionales capaces de **conceptualizar, desarrollar, producir y gestionar proyectos visuales** con una mirada crítica, creativa y estratégica.
@@ -71,7 +70,7 @@ Si te apasiona contar historias con imágenes, explorar nuevas tecnologías y tr
 
 Esta área de profundización aborda de manera integral los conocimientos, habilidades y competencias necesarias para la creación, desarrollo y producción de objetos comunicativos visuales mediante la integración metodológica de diversas disciplinas como la producción audiovisual, la cinematografía, la animación tradicional y digital, el diseño gráfico y el diseño multimedia. Su enfoque se fundamenta en el análisis crítico, la conceptualización creativa y la ejecución técnica de productos comunicativos que respondan a las necesidades, dinámicas y exigencias de los entornos digitales contemporáneos. Se consideran tanto los aspectos técnicos como los narrativos, estéticos, simbólicos, comunicativos y experienciales que intervienen en la construcción de sentido a través de imágenes en movimiento.
 
-![Poster triptico](/FAD-WebPage/images/areas/edicion-grafica/ck.png)
+![Poster triptico](/FAD-WebPage/images/areas/edicion-grafica/ck.jpg)
 
 Dentro de esta área se profundiza en el estudio y aplicación de los lenguajes visuales y sonoros, el guión audiovisual, la dirección de arte, el montaje y la edición como elementos estructurales del relato. Así mismo, se abordan conocimientos sobre cinematografía, uso de cámaras profesionales, sistemas de iluminación, dirección de fotografía, sonido directo y diseño sonoro, además de herramientas y técnicas de postproducción digital como la corrección de color, el etalonaje, el compositing y los efectos visuales (VFX). El dominio de software especializado (como Adobe Premiere, After Effects, DaVinci Resolve, entre otros) es parte fundamental de la formación técnica y creativa del estudiante.
 

@@ -18,8 +18,6 @@ media:
         title: "Caligrama Tipográfico"
       - src: "images/areas/edicion-grafica/ck.jpg"
         title: "ck"
-      - src: "images/areas/edicion-grafica/Copia de Documento A4 Catálogo Moda Elegante Blanco y Gris (5).png"
-        title: "Banner"
       - src: "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).jpeg"
         title: "Xochiquetzali´s Arreglos florales"
       - src: "images/areas/edicion-grafica/Periódico-Tania Herrera.png"
