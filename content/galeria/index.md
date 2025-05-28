@@ -68,17 +68,16 @@ media:
         title: "Dibujo geometrico" 
       - src: "images/areas/iconicidad-y-entornos/6.jpg"
         title: "Maqueta" 
-
+    videos:
+      - youtube_id: "OrG8ztd90RM"
+        title: "GALERÍA DE TRABAJOS"
+        author: "FAD Audiovisuales"
+        
   medios-audiovisuales-e-hipermedia:
     photos:
       - src: "images/areas/medios-audiovisuales-e-hipermedia/1.jpg"
         title: "Instagram"
       - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
         title: "Pagina Web"
-    videos:
-      - src: "images/videos/medios-audiovisuales-e-hipermedia/Vídeo_Hipermedia_VR.mp4"
-        thumbnail: "images/areas/medios-audiovisuales-e-hipermedia/hiper.png"
-        title: "Realidad Virtual"
+    
 ---
-
-Bienvenido a la galería de especies por área. Usa el menú superior para elegir entre fotos, vídeos o ambos, filtra por áreas y haz clic en **Aplicar** para ver solo lo seleccionado. ¡Disfruta!

@@ -17,8 +17,9 @@
   margin: 2rem auto;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
+
 }
+
 /* Hover effect for the entire card */
 .area-card-link:hover .area-card {
   transform: translateY(-8px);

@@ -33,8 +33,7 @@
         <!-- Fotos -->
         {{ range .photos }}
         <div class="media-item" data-type="photo">
-            <img src="{{ .src | relURL }}" alt="{{ .title }}" onerror="this.src='{{ "images/placeholder.svg" | absURL
-                }}'">
+            <img src="{{ .src | relURL }}" alt="{{ .title }}" onerror="this.src='{{ "images/placeholder.svg" | absURL }}'">
             <div class="caption">
                 <strong>{{ .title }}</strong>
                 {{ with .author }}<em>por {{ . }}</em>{{ end }}
@@ -44,10 +43,17 @@
         <!-- Vídeos -->
         {{ range .videos }}
         <div class="media-item" data-type="video">
+            {{ if .youtube_id }}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .youtube_id }}" title="{{ .title }}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            {{ else }}
             <video controls poster="{{ if .thumbnail }}{{ .thumbnail | relURL }}{{ else }}{{ "images/placeholder.svg" |
                 absURL }}{{ end }}" src="{{ .src | relURL }}" onerror="this.poster='{{ "images/placeholder.svg" |
                 absURL }}'">
             </video>
+            {{ end }}
             <div class="caption">
                 <strong>{{ .title }}</strong>
                 {{ with .author }}<em>por {{ . }}</em>{{ end }}
@@ -60,9 +66,9 @@
 {{ end }}
 <!-- Lightbox Modal -->
 <div id="lightbox-modal" class="lightbox-hidden">
-  <div id="lightbox-overlay"></div>
-  <img id="lightbox-img" src="" alt="Foto ampliada">
-  <span id="lightbox-close">&times;</span>
+    <div id="lightbox-overlay"></div>
+    <img id="lightbox-img" src="" alt="Foto ampliada">
+    <span id="lightbox-close">&times;</span>
 </div>
 
 
