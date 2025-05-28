@@ -79,5 +79,8 @@ media:
         title: "Instagram"
       - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
         title: "Pagina Web"
-    
+    videos:
+      - youtube_id: "dQw4w9WgXcQ"
+        title: "Tutorial de edición"
+        author: "Tania Herrera"  
 ---
