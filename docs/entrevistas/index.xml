@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Entrevistas on FAD UNAM - Diseño Gráfico</title><link>https://jonathancruze.github.io/FAD-WebPage/entrevistas/</link><description>Recent content in Entrevistas on FAD UNAM - Diseño Gráfico</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://jonathancruze.github.io/FAD-WebPage/entrevistas/index.xml" rel="self" type="application/rss+xml"/><item><title>Entrevista con Iván Silva</title><link>https://jonathancruze.github.io/FAD-WebPage/entrevistas/ivan-silva/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jonathancruze.github.io/FAD-WebPage/entrevistas/ivan-silva/</guid><description>&lt;p>&lt;strong>Iván Silva&lt;/strong>, también conocido como &lt;strong>@SIDMI&lt;/strong>, es licenciado en Diseño Gráfico, especializado en el área de ilustración. Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrevistas on FAD UNAM - Diseño Gráfico</title>
+    <link>http://localhost:1313/FAD-WebPage/entrevistas/</link>
+    <description>Recent content in Entrevistas on FAD UNAM - Diseño Gráfico</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/FAD-WebPage/entrevistas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrevista con Iván Silva</title>
+      <link>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Iván Silva&lt;/strong&gt;, también conocido como &lt;strong&gt;@SIDMI&lt;/strong&gt;, es licenciado en Diseño Gráfico, especializado en el área de ilustración. Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

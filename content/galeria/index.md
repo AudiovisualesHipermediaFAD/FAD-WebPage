@@ -22,8 +22,10 @@ media:
         title: "Xochiquetzali´s Arreglos florales"
       - src: "images/areas/edicion-grafica/Periódico-Tania Herrera.png"
         title: "Periodico"
+        author: "Tania Herrera"
       - src: "images/areas/edicion-grafica/Portada Tania Herrera.png"
         title: "Portada periodico"
+        author: "Tania Herrera"
       - src: "images/areas/edicion-grafica/Poster Promocion Pizzeria Urbano Negro y Naranja.png"
         title: "Poster pizzeria"
       - src: "images/areas/edicion-grafica/Proyecto final Diseño.png"
@@ -40,16 +42,17 @@ media:
         title: "Anime"
       - src: "images/areas/grafica-e-ilustracion/Identidad_Grafica(2).jpeg"
         title: "Identidad gráfica"
-      - src: "images/areas/grafica-e-ilustracion/rostros.jpg"
-        title: "Rostros"
+        author: "Camila Mondragón"
+
       - src: "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
         title: "Icono 1"
       - src: "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
         title: "Icono 2"
       - src: "images/areas/grafica-e-ilustracion/mural.jpg"
+        title: "Mural de dibujos"
+      - src: "images/areas/grafica-e-ilustracion/mural.jpeg"
         title: "Mural"
-      - src: "images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg"
-        title: "Mural Jake"
+        author: "Danna Arroyo, Daniela Hoyos y Gloria Murcio"
 
   iconicidad-y-entornos:
     photos:

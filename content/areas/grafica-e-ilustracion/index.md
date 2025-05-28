@@ -4,10 +4,9 @@ layout: "Area"
 draft: false
 images:
     - "images/areas/grafica-e-ilustracion/Fotografía_de_producto_Jimena_Reyes.jpg"
-    - "images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg"
+    - "images/areas/grafica-e-ilustracion/mural.jpeg"
     - "images/areas/grafica-e-ilustracion/rostros.jpg"
     - "images/areas/grafica-e-ilustracion/mural.jpg"
-    - "images/areas/grafica-e-ilustracion/negros rojos y figuras.jpeg"
     - "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
     - "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
     - "images/areas/grafica-e-ilustracion/rostro.jpg"
@@ -96,7 +95,7 @@ Profesionales en esta área trabajan en:
 *   Industrias culturales y creativas
 *   Proyectos independientes o artísticos.
 
-![Mural](/FAD-WebPage/images/areas/grafica-e-ilustracion/Mural_Ilustracion.jpg)
+![Mural](/FAD-WebPage/images/areas/grafica-e-ilustracion/mural.jpeg)
 
 ## ¿Por qué elegir esta área?
 
