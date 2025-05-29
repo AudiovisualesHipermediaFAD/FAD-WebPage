@@ -47,7 +47,6 @@ media:
       - src: "images/areas/grafica-e-ilustracion/Identidad_Grafica(2).jpeg"
         title: "Identidad gráfica"
         author: "Camila Mondragón"
-
       - src: "images/areas/grafica-e-ilustracion/IMG_1839.jpg"
         title: "Icono 1"
       - src: "images/areas/grafica-e-ilustracion/IMG_1840.jpg"
