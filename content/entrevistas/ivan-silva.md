@@ -31,7 +31,7 @@ media:
       src: "images/entrevistas/ivan-silva/Producciones Multimedia-SIDMI.jpg"
 ---
 
-**Dr. Mario Iván Silva Díaz**, también conocido como **@SIDMI**, realiza la labor docente en Universidades de la Ciudad de México. Es licenciado en Diseño Gráfico, especializado en el área de ilustración y mantiene su producción personal enfocada a Ilustración y Concept Art. 
+**Dr. Mario Iván Silva Díaz**, también conocido como **@SIDMI**, realiza la labor docente en Universidades de la Ciudad de México. Es licenciado en Diseño Gráfico, especializado en el área de ilustración y mantiene su producción personal enfocada a **Ilustración** y ***Concept Art***. 
 
 Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.
 <!--more-->
