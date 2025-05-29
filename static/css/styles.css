@@ -31,11 +31,11 @@
 /* ================================================ */
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background-color: #cecece;
   overflow-x: hidden;
-  max-width: 100%;
 }
 
 .container {
@@ -45,9 +45,10 @@ body {
   padding-right: 1rem;
 }
 
+
 main {
+  width: 95%;
   max-width: var(--max-width);
-  width: 100%;
   margin: 0 auto;
   background: var(--white);
   padding: 1.5rem 2rem;
@@ -56,6 +57,7 @@ main {
   color: var(--text-color);
   margin-bottom: 4rem;
 }
+
 
 /* ================================================ */
 /* Headers                                          */
