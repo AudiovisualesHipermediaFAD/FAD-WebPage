@@ -11,7 +11,7 @@
   position: sticky;
   top: 0;
   margin: 1rem auto;
-  width: 95%;
+  width: 100%;
   max-width: var(--max-width);
   backdrop-filter: blur(var(--bg-blur));
   background-color: rgba(255, 255, 255, 0.6);
@@ -188,7 +188,6 @@
     display: none;
     background-color: rgb(255, 255, 255);
     backdrop-filter: blur(var(--bg-blur));
-    padding: 1rem;
     position: absolute;
     top: 100%;
     left: 0;
