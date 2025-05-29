@@ -19,7 +19,7 @@ media:
       - src: "images/areas/edicion-grafica/ck.jpg"
         title: "ck"
       - src: "images/areas/edicion-grafica/Copia de Xochiquetzali´s Arreglos florales (1).jpeg"
-        title: "Xochiquetzali´s Arreglos florales"
+        title: "Xochiquetzali's Arreglos florales"
       - src: "images/areas/edicion-grafica/Periódico-Tania Herrera.png"
         title: "Periodico"
         author: "Tania Herrera"
@@ -31,7 +31,11 @@ media:
       - src: "images/areas/edicion-grafica/Proyecto final Diseño.png"
         title: "Poster pelicula"
       - src: "images/areas/edicion-grafica/Triptico FINAL.png"
-        title: "Triptico"
+        title: "Triptico 80's"
+      - src: "images/areas/edicion-grafica/TripticoDigital1 (1).jpg"
+        title: "Triptico CMYK"
+      - src: "images/areas/edicion-grafica/TripticoDigital1 (2).jpg"
+        title: "Triptico CMYK"
 
   grafica-e-ilustracion:
     photos:
@@ -75,12 +79,24 @@ media:
         
   medios-audiovisuales-e-hipermedia:
     photos:
-      - src: "images/areas/medios-audiovisuales-e-hipermedia/1.jpg"
-        title: "Instagram"
-      - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
-        title: "Pagina Web"
       - src: "images/areas/medios-audiovisuales-e-hipermedia/(HM-Galería5).gif"
         title: "Publicidad producto"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/(HipermediaGalería-1)-Sugoi-Brand-Refresh-Alejandro-Paniagua-2.gif"
+        title: "Branding Sugoi"
+        author: "Alejandro Panigua"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/(HM-Galería2).jpg"
+        title: "Branding Sugoi"
+        author: "Alejandro Panigua"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/(HM-Galería3).jpg"
+        title: "Branding Sugoi"
+        author: "Alejandro Panigua"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/(HM-Galería4).jpg"
+        title: "Branding Sugoi"
+        author: "Alejandro Panigua"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/1.jpg"
+        title: "Instagram Pizzas"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
+        title: "Pagina Web Pizzas"
     videos:
       - youtube_id: "lS6JfimPqvs"
         title: "Mural con Realidad Virtual"
