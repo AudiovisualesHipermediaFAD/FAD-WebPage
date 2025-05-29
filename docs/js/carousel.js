@@ -1,4 +1,6 @@
 // static/js/carousel.js
+// Ajustado para mostrar videos más grandes en lightbox con estilos embebidos
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.carousel').forEach(initCarousel);
 });
@@ -20,7 +22,7 @@ function initCarousel(carro) {
   }
 
   // Lightbox
-  let overlay, imgEl, btnPrev, btnNext;
+  let overlay, imgEl, iframeEl, btnPrev, btnNext;
   let scrollY, zoomed = false, offsetX = 0, offsetY = 0;
 
   slides.forEach((slide, i) => {
@@ -33,12 +35,12 @@ function initCarousel(carro) {
     overlay.innerHTML = `
       <button class="close-btn">&times;</button>
       <button class="lb-prev">&lsaquo;</button>
-      <img class="lb-img" src="" alt="">
+      <div class="lb-content" style="display: flex; align-items: center; justify-content: center; max-width: 90vw; max-height: 90vh; width: 100%; height: 100%;"></div>
       <button class="lb-next">&rsaquo;</button>
     `;
     document.body.appendChild(overlay);
 
-    imgEl   = overlay.querySelector('.lb-img');
+    const content = overlay.querySelector('.lb-content');
     btnPrev = overlay.querySelector('.lb-prev');
     btnNext = overlay.querySelector('.lb-next');
     const btnClose = overlay.querySelector('.close-btn');
@@ -49,28 +51,48 @@ function initCarousel(carro) {
     });
     btnPrev.addEventListener('click', e => { e.stopPropagation(); openLightbox((index - 1 + total) % total); });
     btnNext.addEventListener('click', e => { e.stopPropagation(); openLightbox((index + 1) % total); });
-
-    // Drag & Zoom handlers
-    setupDragAndZoom();
   }
 
   function openLightbox(i) {
     index = i;
     if (!overlay) createLightbox();
 
-    imgEl.src = slides[i].querySelector('img').src;
-    resetZoom();
+    const content = overlay.querySelector('.lb-content');
+    content.innerHTML = ''; // Clear previous
 
-    // Lock scroll
+    const img = slides[i].querySelector('img');
+    const iframe = slides[i].querySelector('iframe');
+
+    if (img) {
+      imgEl = document.createElement('img');
+      imgEl.className = 'lb-img';
+      imgEl.src = img.src;
+      content.appendChild(imgEl);
+      setupDragAndZoom();
+    } else if (iframe) {
+      iframeEl = document.createElement('iframe');
+      iframeEl.src = iframe.src;
+      iframeEl.setAttribute('allow', iframe.getAttribute('allow'));
+      iframeEl.setAttribute('allowfullscreen', 'true');
+      iframeEl.style.width = '80vw';
+      iframeEl.style.height = 'calc(80vw * 9 / 16)';
+      iframeEl.style.maxHeight = '80vh';
+      iframeEl.style.border = 'none';
+      content.appendChild(iframeEl);
+    } else {
+      return;
+    }
+
     scrollY = window.scrollY;
     document.body.classList.add('no-scroll');
     document.body.style.top = `-${scrollY}px`;
-
     overlay.style.display = 'flex';
   }
 
   function closeLightbox() {
     overlay.style.display = 'none';
+    if (imgEl) imgEl.remove();
+    if (iframeEl) iframeEl.remove();
     resetZoom();
     document.body.classList.remove('no-scroll');
     document.body.style.top = '';
@@ -80,15 +102,16 @@ function initCarousel(carro) {
   function resetZoom() {
     zoomed = false;
     offsetX = offsetY = 0;
-    imgEl.style.transform = '';
-    imgEl.classList.remove('zoomed');
-    overlay.classList.remove('zoomable');
+    if (imgEl) {
+      imgEl.style.transform = '';
+      imgEl.classList.remove('zoomed');
+    }
+    if (overlay) overlay.classList.remove('zoomable');
   }
 
   function setupDragAndZoom() {
     let isDragging = false, startX, startY, lastTap = 0;
 
-    // Mouse drag
     imgEl.addEventListener('mousedown', e => {
       if (!zoomed) return;
       e.preventDefault();
@@ -104,7 +127,6 @@ function initCarousel(carro) {
     });
     document.addEventListener('mouseup', () => isDragging = false);
 
-    // Touch drag
     imgEl.addEventListener('touchstart', e => {
       if (!zoomed || e.touches.length !== 1) return;
       const t = e.touches[0];
@@ -121,13 +143,11 @@ function initCarousel(carro) {
     });
     imgEl.addEventListener('touchend', () => isDragging = false);
 
-    // Double-click zoom (desktop)
     imgEl.addEventListener('dblclick', e => {
       e.preventDefault();
       toggleZoom(e.clientX, e.clientY);
     });
 
-    // Double-tap zoom (mobile)
     imgEl.addEventListener('touchend', e => {
       const now = Date.now();
       if (now - lastTap < 300) {

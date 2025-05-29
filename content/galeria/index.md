@@ -79,8 +79,10 @@ media:
         title: "Instagram"
       - src: "images/areas/medios-audiovisuales-e-hipermedia/2.jpg"
         title: "Pagina Web"
+      - src: "images/areas/medios-audiovisuales-e-hipermedia/(HM-Galería5).gif"
+        title: "Publicidad producto"
     videos:
-      - youtube_id: "dQw4w9WgXcQ"
-        title: "Tutorial de edición"
-        author: "Tania Herrera"  
+      - youtube_id: "lS6JfimPqvs"
+        title: "Mural con Realidad Virtual"
+        author: "FAD Audiovisuales"  
 ---

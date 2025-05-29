@@ -1,16 +1,50 @@
 ---
-title: "Entrevista con Iván Silva"
+title: "Entrevista con Dr. Mario Iván Silva Díaz"
+date: 2024-12-30
 draft: false
-images:
-    - "images/entrevistas/ivan-silva/Sketchbook-SIDMI.jpg"
-    - "images/entrevistas/ivan-silva/Proceso_creativo-SIDMI.jpg"
-    - "images/entrevistas/ivan-silva/Custom_de_superficies-SIDMI.jpg"
-    - "images/entrevistas/ivan-silva/Tecnicas_tradicionales-SIDMI.jpg"
-    - "images/entrevistas/ivan-silva/Producciones Multimedia-SIDMI.jpg"
+media:
+    - type: "image"
+      src: "images/entrevistas/ivan-silva/Sketchbook-SIDMI.jpg"
+
+    - type: "video"
+      youtube_id: "RY1JjZkRNFU"
+
+    - type: "image"
+      src: "images/entrevistas/ivan-silva/Proceso_creativo-SIDMI.jpg"
+
+    - type: "video"
+      youtube_id: "tempxAL9BXk"
+
+    - type: "image"
+      src: "images/entrevistas/ivan-silva/Custom_de_superficies-SIDMI.jpg"
+
+    - type: "video"
+      youtube_id: "7syOEpzzrd8"
+
+    - type: "image"
+      src: "images/entrevistas/ivan-silva/Tecnicas_tradicionales-SIDMI.jpg"
+
+    - type: "video"
+      youtube_id: "p-6DQqXJht4"
+
+    - type: "image"
+      src: "images/entrevistas/ivan-silva/Producciones Multimedia-SIDMI.jpg"
 ---
 
-**Iván Silva**, también conocido como **@SIDMI**, es licenciado en Diseño Gráfico, especializado en el área de ilustración. Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.
+**Dr. Mario Iván Silva Díaz**, también conocido como **@SIDMI**, realiza la labor docente en Universidades de la Ciudad de México. Es licenciado en Diseño Gráfico, especializado en el área de ilustración y mantiene su producción personal enfocada a Ilustración y Concept Art. 
+
+Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.
 <!--more-->
+
+# Iván: Diseñador Gráfico, Ilustrador y Artista.
+
+Ha realizado labor **docente** en Universidades de la Ciudad de México. Imparte talleres y diplomados de Negociación para el Diseño Gráfico, Ilustración, Diseño de Personajes, Body Paint, FX físicos, Concept Art y Arte Aplicado a nivel **universitario**, **especialidad** y **posgrado**.
+
+Como ilustrador profesional, ha colaborado en empresas editoriales, empresas de publicidad, televisión y clientes directos en México, E.U., Italia y Venezuela. Ha publicado en revistas como **Asimov Ciencia Ficción**, **ABC Graphic**, **Arqueología Mexicana**, **Contexto Gráfico** y **NUN**. Su línea de investigación está enfocada a la *“Ilustración Híbrida”* y *“La Gestión de la Ilustración en México”*.
+
+Simultáneamente, mantiene su producción personal enfocada a **Ilustración** y **Concept Art**, así como a la creación de piezas de arte exclusivas para galerías y exposiciones individuales.
+
+---
 
 ## ¿Qué características crees que debería tener alguien que quiere ser ilustrador?
 

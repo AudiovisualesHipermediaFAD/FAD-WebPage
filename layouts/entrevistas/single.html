@@ -7,15 +7,22 @@
     </div>
   </section>
 
-  <!-- Carrusel de imágenes -->
-  {{ if .Params.images }}
+  <!-- Carrusel de imágenes y videos -->
+  {{ if .Params.media }}
   <section class="content-section carousel-section">
     <div class="carousel" id="carousel-{{ .File.BaseFileName }}">
       <button class="carousel-btn prev" data-target="carousel-{{ .File.BaseFileName }}">‹</button>
       <div class="carousel-track">
-        {{ range $idx, $src := .Params.images }}
+        {{ range $idx, $item := .Params.media }}
         <div class="carousel-slide" data-index="{{ $idx }}">
-          <img src="{{ $src | relURL }}" alt="Obra {{ add $idx 1 }} de {{ $.Title }}">
+          {{ if eq $item.type "image" }}
+            <img src="{{ $item.src | relURL }}" alt="Obra {{ add $idx 1 }} de {{ $.Title }}">
+          {{ else if eq $item.type "video" }}
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ $item.youtube_id }}"
+                    title="Video {{ add $idx 1 }} de {{ $.Title }}" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          {{ end }}
         </div>
         {{ end }}
       </div>
@@ -23,7 +30,6 @@
     </div>
   </section>
   {{ end }}
-
 
   <!-- Contenido completo -->
   <section class="content-section">

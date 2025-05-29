@@ -6,8 +6,22 @@
     <description>Recent content in Inicio on FAD UNAM - Diseño Gráfico</description>
     <generator>Hugo</generator>
     <language>es-mx</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/FAD-WebPage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrevista con Dana Ramírez</title>
+      <link>http://localhost:1313/FAD-WebPage/entrevistas/dana-ramirez/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/entrevistas/dana-ramirez/</guid>
+      <description>&lt;p&gt;Dana Ramírez, estudiante de octavo semestre del área de edición gráfica nos compartió un poco sobre su experiencia en el área a lo largo de estos 4 años. ¡Checa lo que nos contó!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrevista con Dr. Mario Iván Silva Díaz</title>
+      <link>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Iván Silva&lt;/strong&gt;, también conocido como &lt;strong&gt;@SIDMI&lt;/strong&gt;, es licenciado en Diseño Gráfico, especializado en el área de ilustración. Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Post 3</title>
       <link>http://localhost:1313/FAD-WebPage/posts/post-3/</link>
@@ -37,11 +51,18 @@
       <description>&lt;p&gt;El área de &lt;strong&gt;Edición Gráfica&lt;/strong&gt; se enfoca en la formación integral de profesionales capaces de &lt;strong&gt;conceptualizar, desarrollar, producir y gestionar proyectos visuales&lt;/strong&gt; con una mirada crítica, creativa y estratégica.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Entrevista con Iván Silva</title>
-      <link>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</link>
+      <title>Entrevista con Mauricio López</title>
+      <link>http://localhost:1313/FAD-WebPage/entrevistas/mauricio-lopez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FAD-WebPage/entrevistas/ivan-silva/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Iván Silva&lt;/strong&gt;, también conocido como &lt;strong&gt;@SIDMI&lt;/strong&gt;, es licenciado en Diseño Gráfico, especializado en el área de ilustración. Hablamos con él sobre su proceso creativo, desafíos y consejos para nuevos profesionales.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/FAD-WebPage/entrevistas/mauricio-lopez/</guid>
+      <description>&lt;p&gt;Mauricio, estudiante de octavo semestre del área de gráfica e ilustración nos contó un poco sobre su pasión por el cómic, lo que despertó su curiosidad por el área de ilustración. Nos compartió sobre sus proyectos y su experiencia en el área. También nos compartió algunos datos interesantes ¡Chécalos!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrevista con Rizo</title>
+      <link>http://localhost:1313/FAD-WebPage/entrevistas/rizo-itzel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FAD-WebPage/entrevistas/rizo-itzel/</guid>
+      <description>&lt;p&gt;Rizo, estudiante del área de medios audiovisuales e hipermedia, nos cuenta su curiosidad y cómo fue que se decidió por el área, sus primeros acercamientos, sobre sus proyectos y su experiencia padrísima en la FAD. ¡Ha hecho cosas increíbles! Mira la entrevista que le hicimos&lt;/p&gt;</description>
     </item>
     <item>
       <title>Galería de Fotos y Videos</title>
