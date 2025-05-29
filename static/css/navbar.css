@@ -184,19 +184,20 @@
   .nav-menu {
     flex-direction: column;
     width: 100%;
-    margin-top: 1rem;
     display: none;
+    margin-top: 0.2rem;
     background-color: rgb(255, 255, 255);
     backdrop-filter: blur(var(--bg-blur));
     position: absolute;
     top: 100%;
     left: 0;
     box-shadow: var(--shadow);
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    border-radius: var(--border-radius) var(--border-radius) var(--border-radius) var(--border-radius);
   }
 
   .nav-menu.open {
     display: flex;
+    padding: 1rem;
   }
 
   .nav-list {
